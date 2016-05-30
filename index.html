@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/bici2.jpg','imagenes/calentador2.jpg','imagenes/foco2.jpg','imagenes/reciclado2.jpg','imagenes/cha3.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-theme="b">
+    <h1>CARRERAS PROFESIONALES </h1>
+    </div>
+   <div>
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Heroico Colegio Militar </h2>
+   <p>Muestra la carrera que se quiere en el colegio militar.</p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Universidad de Chapingo </h2>
+   <p>Muestra la carrera que se quiere en la universidad de Chapingo</p>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Universidad Nacional Autonoma de Mexico(UNAM) </h2>
+   <p>Muestra la carrera que se quiere en la UNAM</p>
+   </a>
+   </li>
+   </ul>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+   <h1><center>Realizado por</center></h1>
+   <div>
+   <ul>
+   <li>Daniel Suárez González</li>
+   <li>4 "H"</li>
+   <li>CBTis 16</li>
+   </ul>
+   </div>
+   </div>
+   
+   <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="visor/data1/images/militar1.jpg" alt="militar1" title="militar1" id="wows1_0"/></li>
+		<li><a href="http://wowslider.com"><img src="visor/data1/images/unam1.jpg" alt="slider" title="unam1" id="wows1_1"/></a></li>
+		<li><img src="visor/data1/images/cha2.jpg" alt="cha2" title="cha2" id="wows1_2"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="militar1"><span><img src="visor/data1/tooltips/militar1.jpg" alt="militar1"/>1</span></a>
+		<a href="#" title="unam1"><span><img src="visor/data1/tooltips/unam1.jpg" alt="unam1"/>2</span></a>
+		<a href="#" title="cha2"><span><img src="visor/data1/tooltips/cha2.jpg" alt="cha2"/>3</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="visor/engine1/wowslider.js"></script>
+	<script type="text/javascript" src="visor/engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+   
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+    <div>
+    <h4>Aplicacion Once Carreras</h4>
+    <h4>Daniel Suárez González</h4>
+    </div>
+    </div>
+    </div>
+    
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Heroico Colegio Militar</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p><center><h1>ESCUELA MILITAR DE AVIACIÓN.</h1></center></p>
+       <div>
+       <a href="http://www.hgo.sep.gob.mx/content/convocatorias/archivos/u_militar.pdf">Visita esta pagina del Heroico Colegio Militar</a>
+       </div>
+       <div data-role="collapsible" data-content-theme="false">
+   <h1>Beneficios</h1>
+   <div>
+   <p>Estos son los beneficios:
+   <br>
+   </div>
+   <div>
+   <img src="imagenes/militar6.jpg" width="30%" height="30%">
+   </div>
+    <ul>
+  <li> a. Educación a través de una formación militar y académica de excelencia.</li>
+  <li> b. Seguro de vida militar.</li>
+  <li> c. Servicio médico.</li>
+  <li> d. Vestuario y equipo.</li>
+  <li> e. Alojamiento.</li>
+  <li> f. Alimentación.</li>
+  <li> g. Instalaciones deportivas.</li>
+  <li> h. Actividades sociales y culturales.</li>
+  <li> i. Percepción Recreativa Estudiantil (P.R.E.), es una cantidad monetaria para gastos menores,
+          otorgada únicamente para personal que causa alta como discente en un Plantel Militar.</li>
+  <li> j. Los Oficiales y Clases en Instrucción continuarán percibiendo sus haberes y demás
+          emolumentos correspondientes al grado que ostenten, así como las prestaciones que reciben
+          todos los miembros del Ejército y Fuerza Aérea Mexicanos.</li>
+  <li> k. Docentes e instructores capacitados.</li>
+  <li> l. Bibliotecas.</li>
+  <li> m. Aulas y laboratorios</li>
+  </ul>
+   </div>
+       <p><h2>Misión.</h2><br>
+       <div>
+   <img src="imagenes/militar1.jpg" width="50%" height="50%">
+   </div>
+Formar Licenciados en Administración Militar Pilotos Aviadores, teniendo derecho a participar el personal
+civil o militar (Tenientes, Clases y Soldados) masculinos y femeninos, para la operación de aeronaves
+militares.</p>
+<div>
+   <img src="imagenes/militar3.jpg" width="50%" height="50%">
+   </div>
+<p>Al egresar se le conferirá el grado de Subteniente Oficial de Fuerza Aérea, Licenciado en Administración
+Militar Piloto Aviador.
+El ámbito para realizar su actividad profesional, será en las Unidades de Vuelo de la Fuerza Aérea
+Mexicana; además existe una amplia perspectiva de superación profesional, con posibilidades de
+efectuar estudios en otras instituciones educativas del Sistema Educativo Militar o civiles e inclusive en el
+extranjero.</p>
+
+       
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+    <div>
+    <h4>Aplicacion Once Carreras</h4>
+    <h4>Daniel Suárez González</h4>
+    </div>
+    </div>
+         </div>
+          </div>
+          
+          <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1>Universidad Autonoma Chapingo</h1>
+           </div>
+            <div data-role="content" align="center">
+            <div>
+            <a href="http://www.chapingo.mx/web/">Universidad Autonoma Chapingo</a>
+            </div>
+            <div>
+            <img src="imagenes/cha1.jpg" width="150" height="150">
+            <p><center>La Universidad Autónoma Chapingo es una institución mexicana pública pertinente, con liderazgo y reconocimiento nacional e internacional con alta calidad académica en la educación; los servicios y la transferencia de las innovaciones científicas y tecnológicas que realiza; la importancia y magnitud de sus contribuciones en investigación científica y tecnológica; y por el rescate y la difusión cultural que desarrolla.</center></p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/cha3.jpg',1)"><img src="imagenes/cha2.jpg" width="600" height="299" id="Image19"></a>
+             </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+    <div>
+    <h4>Aplicacion Once Carreras</h4>
+    <h4>Daniel Suárez González</h4>
+    </div>
+    </div>
+         </div>
+          </div>
+          
+            <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1>Universidad Autonoma de Mexico</h1>
+           </div>
+            <div data-role="content" align="center">
+            <div>
+            <p><h1><center>Medicina</center></h1></p>
+            <div data-role="collapsible" data-content-theme="false">
+   <h1>Requisitos adicionales de ingreso</h1>
+   <div>
+   <p>Estos son los requisitos
+   <br>
+   </div>
+   <div>
+   <img src="imagenes/unam2.jpg" width="50%" height="50%"></div>
+   <ul>
+   <li> * Cubrir el plan de estudios de bachillerato.</li>
+   <li> * Solicitar la inscripción de acuerdo con los instructivos que se establezcan.</li>
+   <li> * En el caso de la Facultad de Medicina, cubrir los requisitos académicos aprobados por el H. Consejo Técnico de esta Facultad.</li>
+   </ul>
+   </div>
+   </div>
+            <p><h3><center>Instalaciones y servicios</center></h3></p><br>
+La Facultad dispone de 48 aulas, laboratorios, quirófanos, 63 sedes hospitalarias, bioterios, anfiteatro, hemerobiblioteca, biblioteca médica digital, auditorios, centro de medios, radioteca y cafeterías.<br>
+<div>
+   <img src="imagenes/unam3.jpg" width="30%" height="30%">
+   </div>
+            <p><center><h3>Intercambio académico</h3></center></p><br>
+Los alumnos de mejor promedio y que dominan el inglés pueden realizar estancias clínicas y de investigación. El intercambio académico se realiza con diversas universidades, como: Complutense de Madrid, John Hopkins, así como el Instituto Levinson.
+            <p><center><h3>Apoyos extracurriculares</p></center></h3><br>
+Algunos de los programas y servicios de la Facultad de Medicina son: Centro de Enseñanza y Certificación de Aptitudes Médicas (CECAM), Jóvenes hacia la investigación, Programa para alumnos de nuevo ingreso, de Alta Exigencia Académica (PAEA), así como Apoyo y Fomento a la            <p><center><h3>Investigación (AFINES).</h3></center></p><br>
+Actividades culturales y deportivas
+El estudiante practica distintos deportes dentro de la Universidad; la oferta cultural ésta es variada en sus distintos recintos.
+   
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>Plan de Estudios</h1>
+   <div>
+   <p>Esta es el plan de estudios
+   <br>
+   </div>
+   <div>
+   <img src="imagenes/unam1.jpg" width="50%" height="50%"></div>
+   <p>El plan de estudios y metodología educativa de la Facultad de Medicina se caracterizan por ser acordes a los avances científicos y a las necesidades de salud de la población, por lo que es una institución comprometida con la ciencia, el humanismo, la salud y el bienestar social, cuyos logros le han dado reconocimiento internacional.</p>
+   </div>
+   </div>
+   
+   <div>
+   <a href="http://oferta.unam.mx/escuela-facultad/24/facultad-de-medicina">Pagina de la UNAM</a>
+   </div>
+            
+           
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+    <div>
+    <h4>Aplicacion Once Carreras</h4>
+    <h4>Daniel Suárez González</h4>
+    </div>
+    </div>
+         </div>
+          </div>
+         </div>
+          </div>
+          
+</body>
+</html>
